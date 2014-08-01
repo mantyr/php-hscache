@@ -16,3 +16,12 @@ https://github.com/mantyr/php-ext-handlersocketi
 #### HandlerSocket Plugin forMySQL, ebuild for Gentoo
 https://github.com/mantyr/overlay-gentoo-flower/tree/master/dev-db/HandlerSocket
 
+### Описание
+Это черновик, можно создавать таблички на HS серверах, можно читать и записывать туда данные.
+Поддерживается сериализация/десериализация массивов и объектов при сохранении/считывании.
+
+Планируется дописать:
+	1. более удобный планировщик выбирающий сервер
+	2. автоматику по плановой отчистки кеша (Garbage Collector)
+	3. горизонтальный шардинг данных, будет RAID 0, 1, 3 для типа таблицы
+	
